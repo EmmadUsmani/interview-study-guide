@@ -2,6 +2,8 @@
 
 ## [Two Sum](https://leetcode.com/problems/two-sum/)
 
+*Arrays, HashTables*
+
 Given an array of integers, return indices of the two numbers such that they add up to a specific target. You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
 **Example:**
@@ -29,10 +31,44 @@ public int[] twoSum(int[] nums, int target) {
 
 Time: O(n) Space: O(n)
 
+## [Best Time to Buy and Sell Stock] *TODO*
+*Arrays, Greedy*
 
-### Other Top Questions
- - [LRU Cache](https://leetcode.com/problems/lru-cache/) *TODO*
- - [Number of Islands](https://leetcode.com/problems/number-of-islands/) *TODO*
- - [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) *TODO*
+## [Container with Most Water](https://leetcode.com/problems/container-with-most-water/) *REDO*
+*Arrays*
+
+## [Coin Change](https://leetcode.com/problems/coin-change) *REDO, attempt bottom up*
+*Dynamic Programming*
+
+## [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) *REDO, attempt bottom up*
+*Dynamic Programming*
+
+## [Binary Tree Level Order Traversal]() *REDO*
+*Trees*
+
+## [Number of Islands](https://leetcode.com/problems/number-of-islands/) *TODO*
 
 
+
+
+### Other Top Questions (blind)
+ 
+- [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) *TODO*
+- [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) *REDO, potential solution list*
+- [First Missing Positive](https://leetcode.com/problems/first-missing-positive) *REDO*
+- [Longest Increasing Subsquence]() *REDO, or look at solution*
+- [Unique Paths]() *REDO*
+- [Linked List Cycle]() *REDO*
+- [Maximum Depth of Binary Tree]() *REDO*
+- [Jump Game]() *TODO*
+- [Kth Smallest Element in BST]() *REDO*
+
+
+### Misc (not on blind)
+- [LRU Cache](https://leetcode.com/problems/lru-cache/) *TODO, hard*
+- [Perfect Squares]() *REDO, use bottom up dp*
+- [Majority Element]() *REDO, easy FIRST*
+- Find the duplicate number *medium*
+
+### Solutions to read
+- Convert Sorted Array to Binary Search Tree *after reviewing traversals*
