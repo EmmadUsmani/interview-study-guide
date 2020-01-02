@@ -37,6 +37,7 @@ Implementations: HashMap, TreeMap
 - containsKey(Object key)
 - keySet()
 - entrySet()
+- values()
 
 ## Queue
 Implementations: LinkedList, ArrayDeque
@@ -88,6 +89,7 @@ PriorityQueue<Integer> max_pq = new PriorityQueue<>(20, Collections.reverseOrder
 
 - Arrays.copyOfRange(arr, start, end)
 - Arrays.binarySearch(arr, key) *must be sorted ascending*
+- Arrays.fill(arr, value)
 
 ```java
 int[] arr = new int[5];
@@ -102,6 +104,13 @@ Item[] arr = new (Item []) new Object[5];
 - Collections.reverse(list)
 - Collections.binarySearch(list, key) *must be sorted ascending*
 
+## String
+
+- String.valueOf(x)
+- s.concat(s2) *s + s2*
+- s.charAt(index)
+- s.toCharArray()
+
 ## Math
 - Math.max(x, y)
 - Math.min(x, y)
@@ -114,3 +123,6 @@ int range = max - min + 1;
 int rand = (int)(Math.random() * range) + min;
 // random integer between min and max, inclusive
 ```
+
+# TODO
+- for each syntax

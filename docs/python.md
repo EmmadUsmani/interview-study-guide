@@ -49,6 +49,8 @@ implemented with HashTable
 d = {}
 d = {1: 'Emmad', 2: 'Kitten', 'Alpha': [300, 44, 7]}
 d = dict([(1, 'Emmad'), (2, 'Kitten')])
+1 in d #check if key in dict
+#True
 ```
 
 ## Set
