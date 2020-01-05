@@ -87,6 +87,7 @@ PriorityQueue<Integer> max_pq = new PriorityQueue<>(20, Collections.reverseOrder
 
 ## Arrays
 
+- Arrays.sort() *in-place*
 - Arrays.copyOfRange(arr, start, end)
 - Arrays.binarySearch(arr, key) *must be sorted ascending*
 - Arrays.fill(arr, value)
@@ -100,7 +101,7 @@ Item[] arr = new (Item []) new Object[5];
 
 ## Collections
 
-- Collections.sort(list)
+- Collections.sort(list) *in-place*
 - Collections.reverse(list)
 - Collections.binarySearch(list, key) *must be sorted ascending*
 
@@ -110,6 +111,8 @@ Item[] arr = new (Item []) new Object[5];
 - s.concat(s2) *s + s2*
 - s.charAt(index)
 - s.toCharArray()
+- s.length()
+    - different from .length for arrays
 
 ## Math
 - Math.max(x, y)
@@ -117,6 +120,9 @@ Item[] arr = new (Item []) new Object[5];
 - Math.sqrt(x)
 - Math.abs(x)
 - Math.random()
+- Integer.MAX_VALUE
+- Integer.MIN_VALUE
+    - no factorial method
 
 ```java
 int range = max - min + 1;
@@ -124,5 +130,17 @@ int rand = (int)(Math.random() * range) + min;
 // random integer between min and max, inclusive
 ```
 
-# TODO
-- for each syntax
+## Syntax
+
+- Enhanced For Loop
+```java
+for(String str: str_set) {
+    // do stuff
+}
+// works on iterables (arrays, Collections)
+```
+
+- Ternary Operator
+```java
+booleanExpression ? trueCase : falseCase
+```

@@ -1,6 +1,44 @@
 # Top Questions
 
-## [Two Sum](https://leetcode.com/problems/two-sum/)
+## Arrays
+
+Top 75
+- [Two Sum](https://leetcode.com/problems/two-sum/) *HashTables*
+- [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) *Greedy* **TODO** 
+- [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+- [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) **REDO**
+- [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) *Divide & Conquer, Greedy, Dynamic Programming* **REDO**
+- [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) *Dynamic Programming*
+- [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) *Search* **REDO**
+- [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) *Search* **TODO**
+- [3Sum](https://leetcode.com/problems/3sum/) **TODO**
+- [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) *Multiple Pointers* **REDO**
+
+Other
+- [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) **REDO**
+- [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) **REDO**
+- [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) **REDO**
+
+## Binary
+- [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
+- [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
+- [Counting Bits](https://leetcode.com/problems/counting-bits/)
+- [Missing Number](https://leetcode.com/problems/missing-number/)
+- [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
+
+## Dynamic Programming
+- [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) **REDO**
+- [Coin Change](https://leetcode.com/problems/coin-change) **REDO**
+
+
+## Misc
+- [LRU Cache](https://leetcode.com/problems/lru-cache/) **TODO**
+
+
+
+## Solutions
+
+### [Two Sum](https://leetcode.com/problems/two-sum/)
 
 *Arrays, HashTables*
 
@@ -47,27 +85,33 @@ Time: O(n) Space: O(n)
 *Trees*
 
 ## [Number of Islands](https://leetcode.com/problems/number-of-islands/) *TODO*
+*Graph*
 
 
 
 
 ### Other Top Questions (blind)
- 
+Arrays
 - [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) *TODO*
-- [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) *REDO, potential solution list*
-- [First Missing Positive](https://leetcode.com/problems/first-missing-positive) *REDO*
 - [Longest Increasing Subsquence]() *REDO, or look at solution*
+- [Maximum Subarray]*REDO, after learning Divide and Conquer, Greedy, also DP solution*
+Dynamic Programming
 - [Unique Paths]() *REDO*
-- [Linked List Cycle]() *REDO*
-- [Maximum Depth of Binary Tree]() *REDO*
 - [Jump Game]() *TODO*
+
+Linked List
+- [Linked List Cycle]() *REDO*
+
+Trees
+- [Maximum Depth of Binary Tree]() *REDO*
 - [Kth Smallest Element in BST]() *REDO*
 
 
 ### Misc (not on blind)
-- [LRU Cache](https://leetcode.com/problems/lru-cache/) *TODO, hard*
+
 - [Perfect Squares]() *REDO, use bottom up dp*
-- [Majority Element]() *REDO, easy FIRST*
+- [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) *REDO, potential solution list*
+- [First Missing Positive](https://leetcode.com/problems/first-missing-positive) *REDO*
 - Find the duplicate number *medium*
 
 ### Solutions to read
