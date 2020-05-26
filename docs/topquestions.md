@@ -4,20 +4,20 @@
 
 Top 75
 - [Two Sum](https://leetcode.com/problems/two-sum/) *HashTables*
-- [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) *Greedy* **TODO** 
+- [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) *Greedy* 
 - [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
-- [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) **REDO**
-- [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) *Divide & Conquer, Greedy, Dynamic Programming* **REDO**
+- [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) 
+- [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) *Divide & Conquer, Greedy, Dynamic Programming* 
 - [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) *Dynamic Programming*
-- [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) *Search* **REDO**
-- [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) *Search* **TODO**
-- [3Sum](https://leetcode.com/problems/3sum/) **TODO**
-- [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) *Multiple Pointers* **REDO**
+- [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) *Search* 
+- [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) *Search*
+- [3Sum](https://leetcode.com/problems/3sum/)
+- [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) *Multiple Pointers* 
 
 Other
-- [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) **REDO**
-- [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) **REDO**
-- [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) **REDO**
+- [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) 
+- [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) 
+- [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) 
 
 ## Binary
 - [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
@@ -27,12 +27,12 @@ Other
 - [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
 
 ## Dynamic Programming
-- [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) **REDO**
-- [Coin Change](https://leetcode.com/problems/coin-change) **REDO**
+- [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) 
+- [Coin Change](https://leetcode.com/problems/coin-change) 
 
 
 ## Misc
-- [LRU Cache](https://leetcode.com/problems/lru-cache/) **TODO**
+- [LRU Cache](https://leetcode.com/problems/lru-cache/)
 
 
 
