@@ -4,20 +4,20 @@
 
 Top 75
 - [Two Sum](https://leetcode.com/problems/two-sum/) *HashTables*
-- [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) *Greedy* **TODO** 
+- [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) *Greedy* 
 - [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
-- [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) **REDO**
-- [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) *Divide & Conquer, Greedy, Dynamic Programming* **REDO**
+- [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) 
+- [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) *Divide & Conquer, Greedy, Dynamic Programming* 
 - [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) *Dynamic Programming*
-- [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) *Search* **REDO**
-- [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) *Search* **TODO**
-- [3Sum](https://leetcode.com/problems/3sum/) **TODO**
-- [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) *Multiple Pointers* **REDO**
+- [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) *Search* 
+- [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) *Search*
+- [3Sum](https://leetcode.com/problems/3sum/)
+- [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) *Multiple Pointers* 
 
 Other
-- [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) **REDO**
-- [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) **REDO**
-- [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) **REDO**
+- [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) 
+- [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) 
+- [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) 
 
 ## Binary
 - [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
@@ -27,12 +27,12 @@ Other
 - [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
 
 ## Dynamic Programming
-- [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) **REDO**
-- [Coin Change](https://leetcode.com/problems/coin-change) **REDO**
+- [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) 
+- [Coin Change](https://leetcode.com/problems/coin-change) 
 
 
 ## Misc
-- [LRU Cache](https://leetcode.com/problems/lru-cache/) **TODO**
+- [LRU Cache](https://leetcode.com/problems/lru-cache/)
 
 
 
@@ -69,22 +69,22 @@ public int[] twoSum(int[] nums, int target) {
 
 Time: O(n) Space: O(n)
 
-## [Best Time to Buy and Sell Stock] *TODO*
+## [Best Time to Buy and Sell Stock] 
 *Arrays, Greedy*
 
-## [Container with Most Water](https://leetcode.com/problems/container-with-most-water/) *REDO*
+## [Container with Most Water](https://leetcode.com/problems/container-with-most-water/) 
 *Arrays*
 
-## [Coin Change](https://leetcode.com/problems/coin-change) *REDO, attempt bottom up*
+## [Coin Change](https://leetcode.com/problems/coin-change)
 *Dynamic Programming*
 
-## [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) *REDO, attempt bottom up*
+## [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 *Dynamic Programming*
 
-## [Binary Tree Level Order Traversal]() *REDO*
+## [Binary Tree Level Order Traversal]() 
 *Trees*
 
-## [Number of Islands](https://leetcode.com/problems/number-of-islands/) *TODO*
+## [Number of Islands](https://leetcode.com/problems/number-of-islands/) 
 *Graph*
 
 
@@ -92,26 +92,26 @@ Time: O(n) Space: O(n)
 
 ### Other Top Questions (blind)
 Arrays
-- [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) *TODO*
+- [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) 
 - [Longest Increasing Subsquence]() *REDO, or look at solution*
 - [Maximum Subarray]*REDO, after learning Divide and Conquer, Greedy, also DP solution*
 Dynamic Programming
-- [Unique Paths]() *REDO*
-- [Jump Game]() *TODO*
+- [Unique Paths]() 
+- [Jump Game]() 
 
 Linked List
-- [Linked List Cycle]() *REDO*
+- [Linked List Cycle]() 
 
 Trees
-- [Maximum Depth of Binary Tree]() *REDO*
-- [Kth Smallest Element in BST]() *REDO*
+- [Maximum Depth of Binary Tree]() 
+- [Kth Smallest Element in BST]() 
 
 
 ### Misc (not on blind)
 
 - [Perfect Squares]() *REDO, use bottom up dp*
 - [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) *REDO, potential solution list*
-- [First Missing Positive](https://leetcode.com/problems/first-missing-positive) *REDO*
+- [First Missing Positive](https://leetcode.com/problems/first-missing-positive) 
 - Find the duplicate number *medium*
 
 ### Solutions to read
