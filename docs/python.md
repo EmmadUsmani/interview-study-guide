@@ -75,10 +75,10 @@ s = {} # does not work, will make dict
 implemented with *(doubly)* LinkedList
 
 - deque([iter[, maxlen]])
-- append(elem)
-- appendleft(elem)
-- pop()
-- popleft()
+- d.append(elem)
+- d.appendleft(elem)
+- d.pop()
+- d.popleft()
     - *O(1) appends and pops from front and back*
     - *item from oppposite end will be removed if maxlen exceeded*
 
@@ -108,3 +108,14 @@ queue = deque(["Cat", "Dog", "Hamster"], 5)
 - float(x)
 - sum(...), min(...), max(...)
 - // *floor division, returns int*
+
+## Synatax
+- Equality
+```python
+lst1 = []
+lst2 = []
+lst1 == lst2 # value equality
+>>> True
+lst1 is lst2 # reference equality
+>>> False
+```
