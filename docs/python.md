@@ -88,6 +88,31 @@ queue = deque()
 queue = deque(["Cat", "Dog", "Hamster"], 5)
 ```
 
+## Heapq
+methods allow for min-heap operations on an array
+
+- heapq.heappush(heap, item)
+- heapq.heappop(heap)
+- heapq.heapify(x) *in-place, linear time*
+- heapq.heappushpop(heap, item)
+
+Push 'item' onto the heap, then pop and return the smallest element (which may be item). Faster than heappush() then heappop()
+- heapq.heapreplace(heap, item)
+
+Pop and return the smallest item, while pushing the new item. Faster than heappop() then heappush()
+
+```python
+import heapq
+heap = []
+heapq.heappush(heap, 2)
+heapq.heappush(heap, 1)
+heapq.heappush(heap, 3)
+heapq.heappop(heap)
+>>> 1
+heapq[0] # peek min item
+>>> 2
+```
+
 ## String
  - string[start: stop: step]
  - string.split(seprator) *returns list, no seperator*

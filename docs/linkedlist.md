@@ -1,8 +1,8 @@
 # Linked List
 
-The primary advantage of a Linked List is that appending and prepending (that is, appending to the front) take constant time. Lookup, as well as insertion and deletion, take O(n) since you have to follow a chain of node pointers. The actual acts of insertion and deletion take constant time, because only next (and prev if doubly linked) pointers need to changed.
+The primary advantage of a linked list is that appending and prepending (that is, appending to the front) take constant time. Lookup, as well as insertion and deletion, take O(n) since you have to follow a chain of node pointers. The actual acts of insertion and deletion take constant time, because only next (and prev if doubly linked) pointers need to changed.
 
-While asympotics may be similar, in pratice Linked Lists are slower than arrays due to poor cache performance, since nodes are not contiguous in memory.
+While asympotics may be similar, in pratice linked lists are slower than arrays due to poor cache performance, since nodes are not contiguous in memory.
 
 
 ## Runtime Complexity

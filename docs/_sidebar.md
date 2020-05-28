@@ -3,6 +3,8 @@
 - [Strings](strings.md)
 - [Linked Lists](linkedlist.md)
 - [Stacks & Queues](stacks&queues.md)
+- [Trees](trees.md)
+- [Heaps](heaps.md)
 - [Binary](binary.md)
 - [Tips](tips.md)
 - [Python](python.md)
