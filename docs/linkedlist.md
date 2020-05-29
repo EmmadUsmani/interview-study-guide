@@ -27,7 +27,3 @@ Multiple Pointers are very useful with Linked Lists. Fast and slow pointers are 
 - **Middle Node**: Have the fast pointer increment twice as fast. When it reaches the end, the slow pointer will be at the middle.
 
 It can be helpful to utilize sentinel nodes ("dummy" heads), remember to return sentinel.next.
-
-## Top Questions
-
-**TODO**

@@ -55,12 +55,3 @@ n is the number of nodes while h is the tree height. This is assuming a linked t
 
 ## Techniques
 Recursion (dynamic programming) is common for tree problems, as trees are recursive data structues. Often a problem can be solved by solving the same problem on the subtrees, then doing some comparison/computation with the answers and current node.
-
-## Top Questions
-
-Blind Top 75
-
-**TODO**
-
-Other
-

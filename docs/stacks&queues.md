@@ -12,13 +12,3 @@ Complexity depends on the underlying data structure. Generally, supported operat
 Stacks are often useful in backtracking algorithms.
 
 Queues are used for breadth-first search and  often for implementing caches.
-
-
-## Top Questions
-
-Blind Top 75
-- [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) *Stack, String*
-
-Other
-- [Min Stack](https://leetcode.com/problems/min-stack/)
-- [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks)
