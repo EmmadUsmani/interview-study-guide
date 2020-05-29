@@ -11,8 +11,7 @@
 
   - [Heaps](heaps.md)
   - [Tries](tries.md)
-  
+
 - [Binary](binary.md)
-- [Tips](tips.md)
 - [Python](python.md)
 - [Top Questions](topquestions.md)
