@@ -22,6 +22,7 @@ implemented with Array
 
 ```python
 lst = [1, 2, 'cat' (100, 200)]
+alphabet = [None] * 26 # array with 26 Nones, slot for each char
 ```
 
 ## Tuple
@@ -38,7 +39,8 @@ t[1] = 5 # not allowed
 implemented with HashTable
 
 - d.get(key)
-- d[key]
+- d[key] *raises KeyError if key not in d*
+- key in d
 - d[key] = value
 - d.pop(key)
 - d.items() *list of tuples of key val pairs*
@@ -49,7 +51,7 @@ implemented with HashTable
 d = {}
 d = {1: 'Emmad', 2: 'Kitten', 'Alpha': [300, 44, 7]}
 d = dict([(1, 'Emmad'), (2, 'Kitten')])
-1 in d #check if key in dict
+1 in d
 #True
 ```
 
@@ -120,6 +122,15 @@ heapq[0] # peek min item
  - string.count(substr)
  - str() *invokes \_\_str\_\_(), if not \_\_repr\_\_()*
 
+
+ - ord() *returns unicode number of char*
+ - chr(i) *returns char with unicode number i*
+```python
+ord('a')
+>>> 97
+ord('b') - ord('a')
+>>> 1
+```
 
 ## Math
 
