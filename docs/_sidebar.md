@@ -1,11 +1,17 @@
 
 - [Arrays](arrays.md)
-- [Strings](strings.md)
+
+  - [Strings](strings.md)
+
 - [Linked Lists](linkedlist.md)
+
 - [Stacks & Queues](stacks&queues.md)
+
 - [Trees](trees.md)
-- [Heaps](heaps.md)
-- [Tries](tries.md)
+
+  - [Heaps](heaps.md)
+  - [Tries](tries.md)
+  
 - [Binary](binary.md)
 - [Tips](tips.md)
 - [Python](python.md)

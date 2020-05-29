@@ -22,7 +22,7 @@ k is the length of the word/prefix.
 
 A hash table may be faster if only looking up words is needed (prefix operations would be slow), however its runtime may detoriate with collisions. A BST would have O(log n) lookup time, with n being the number of keys.
 
-# Top Questions
+## Top Questions
 
 Blind Top 75
  **TODO**
