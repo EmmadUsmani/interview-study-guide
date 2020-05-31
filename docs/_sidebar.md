@@ -12,5 +12,6 @@
   - [Heaps](heaps.md)
   - [Tries](tries.md)
 
+- [Graphs](graphs.md)
 - [Binary](binary.md)
 - [Python](python.md)
