@@ -13,5 +13,6 @@
   - [Tries](tries.md)
 
 - [Graphs](graphs.md)
+- [Sorting & Searching](sorting&searching.md)
 - [Binary](binary.md)
 - [Python](python.md)

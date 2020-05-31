@@ -14,7 +14,7 @@ implemented with Array
 - lst.pop([index]) *default last elem, O(1) for last, O(n) for arbitrary*
 - lst.index(elem, [beg], [end])
 - lst.count(elem)
-- sum(lst), min(lst), max(lst), len(lst)
+- sum(lst), min(lst), max(lst), len(lst) *len is O(1)*
 - lst + lst2
 - lst * x
 - lst[start: stop: step] *includes start, not stop*
