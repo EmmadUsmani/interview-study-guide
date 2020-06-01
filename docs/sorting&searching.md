@@ -101,13 +101,41 @@ When the items we'd like to sort are strings over a finite alphabet, we can simp
 
 The runtime of LSD Radix Sort is Θ(W(N+R)), where W is the width of the widest key. Space is Θ(N+R).
 
+[Implementation](https://brilliant.org/wiki/radix-sort/#implementation-of-radix-sort) of Counting and Radix Sort.
+
 
 ## Binary Search
 In binary search, we look for an element x in a sorted array by first comparing x to the midpoint of the array. If it is less than the midpoint, we search the left half, we search the right half (if it is equal we are done).
 
-Runtime is Θ(log N), space can be constant with an iterative implementation (see CTCI pg. 149).
+Runtime is Θ(log N), space can be constant with an iterative implementation.
 
 Binary search is analgous to a binary search tree.
+
+```python
+def binarySearch(arr, x):
+    if len(arr) == 0: 
+        raise ValueError(f'{x} not found.')
+
+    mid = len(arr) // 2
+    if arr[mid] == x:
+        return mid
+    elif arr[mid] < x:
+        return mid + 1 + binarySearch(arr[mid+1:], x)
+    else:
+        return binarySearch(arr[:mid], x)
+
+def binarySearchIter(arr, x):
+    low, high = 0, len(arr) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == x:
+            return mid
+        elif arr[mid] < x:
+            low = mid + 1
+        else:
+            high = mid - 1
+    raise ValueError(f'{x} not found.')
+```
 
 
 ## Quick Select
