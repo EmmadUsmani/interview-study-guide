@@ -15,4 +15,5 @@
 - [Graphs](graphs.md)
 - [Sorting & Searching](sorting&searching.md)
 - [Binary](binary.md)
+- [Sliding Window](slidingwindow.md)
 - [Python](python.md)
