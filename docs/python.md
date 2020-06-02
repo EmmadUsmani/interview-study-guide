@@ -183,3 +183,11 @@ sorted(lst) # lst is not modified
 >>> [1, 2, 3, 4, 5]
 lst.sort() # lst is modified, returns None
 ```
+
+- Ternary Operator
+```python
+condition_if_true if condition else condition_if_false
+# example
+is_nice = True
+state = "nice" if is_nice else "not nice"
+```
