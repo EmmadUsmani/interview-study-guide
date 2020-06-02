@@ -55,6 +55,24 @@ d = dict([(1, 'Emmad'), (2, 'Kitten')])
 #True
 ```
 
+## Counter
+implemented with HashTable, inhereits from Dictionary
+must be imported from collections
+
+- Counter([iterable-or-mapping]) *linear time to pass thru iter*
+- c.most_common([n])
+- c.elements() *iterator over elements with each as many times as its count*
+- c.substract([iter-or-mapping]) *subtract counts*
+
+```python
+from collections import Counter
+cnt = Counter()
+for word in words:
+    cnt[word] += 1
+
+cnt = Counter(words) #simpler
+```
+
 ## Set
 implemented with HashTable
 
@@ -116,6 +134,8 @@ heapq[0] # peek min item
 ```
 
 ## String
+Strings in python are immutable, so all methods return new strings.
+
  - string[start: stop: step]
  - string.split(seprator) *returns list, no seperator*
  - string.index(substr)
@@ -154,4 +174,12 @@ lst1 == lst2 # value equality
 >>> True
 lst1 is lst2 # reference equality
 >>> False
+```
+
+- Sorting
+```python
+lst = [4, 5, 2, 1, 3]
+sorted(lst) # lst is not modified
+>>> [1, 2, 3, 4, 5]
+lst.sort() # lst is modified, returns None
 ```
