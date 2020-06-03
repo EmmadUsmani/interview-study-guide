@@ -10,10 +10,17 @@
 - [Trees](trees.md)
 
   - [Heaps](heaps.md)
+  
   - [Tries](tries.md)
 
 - [Graphs](graphs.md)
+
 - [Sorting & Searching](sorting&searching.md)
+
+- [Dynamic Programming](dynamicprogramming.md)
+
 - [Binary](binary.md)
+
 - [Sliding Window](slidingwindow.md)
+
 - [Python](python.md)
