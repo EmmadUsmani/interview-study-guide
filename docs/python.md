@@ -162,7 +162,7 @@ ord('b') - ord('a')
 - abs(x)
 - int(x)
 - float(x)
-- sum(...), min(...), max(...)
+- sum(iterable), min(iterable, [key]), max(iterable, [key]) *key is a func*
 - // *floor division, returns int*
 
 ## Synatax
