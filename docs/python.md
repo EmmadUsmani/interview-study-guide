@@ -17,12 +17,15 @@ implemented with Array
 - sum(lst), min(lst), max(lst), len(lst) *len is O(1)*
 - lst + lst2
 - lst * x
-- lst[start: stop: step] *includes start, not stop*
+- lst[start: stop: step] *includes start, not stop, takes O(n) time, returns new List*
 - list(iterable)
 
 ```python
 lst = [1, 2, 'cat' (100, 200)]
 alphabet = [None] * 26 # array with 26 Nones, slot for each char
+empty = []
+empty[2:] # slicing through an empty List will not error
+>>>[] 
 ```
 
 ## Tuple
