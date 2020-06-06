@@ -165,6 +165,7 @@ ord('b') - ord('a')
 - abs(x)
 - int(x)
 - float(x)
+- float('inf'), float('-inf')
 - sum(iterable), min(iterable, [key]), max(iterable, [key]) *key is a func*
 - // *floor division, returns int*
 
