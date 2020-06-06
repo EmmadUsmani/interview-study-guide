@@ -14,7 +14,7 @@ Operation | Worst Case
 space  | O(n)
 lookup(min) | O(1)
 insert | O(log n)
-delete(min) | O(n)
+delete(min) | O(log n)
 
 Heapifying an array (that is, turning it into a heap), takes O(n) time if done by moving from the back of the array and sinking elements. *[Explanation & Proof](https://stackoverflow.com/a/18742428)*
 
