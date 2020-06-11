@@ -9,4 +9,4 @@ Swap elements of s* and s to get a contradition:
   - Modify s* to be more like s.
   - Argue that s* didn't get worse.
 
-Sometimes greedy algorithms do not yield an optimal solution, but instead an aproximation. An example of this would be the [set cover problem.](https://people.eecs.berkeley.edu/~vazirani/algorithms/chap5.pdf#page=20)
+[Kruskal's algorithm](https://people.eecs.berkeley.edu/~vazirani/algorithms/chap5.pdf#page=5) is a famous greedy algorithm. Sometimes greedy algorithms do not yield an optimal solution, but instead an aproximation. An example of this would be the [set cover problem.](https://people.eecs.berkeley.edu/~vazirani/algorithms/chap5.pdf#page=20)
