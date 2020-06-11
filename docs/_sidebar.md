@@ -16,10 +16,14 @@
 
 - [Dynamic Programming](dynamicprogramming.md)
 
-- [Binary](binary.md)
+- [Divide-and-Conquer](divide&conquer.md)
+
+- [Greedy Algorithms](greedy.md)
 
 - [Sliding Window](slidingwindow.md)
 
-- [Python](python.md)
+- [Binary](binary.md)
 
 - [Math](math.md)
+
+- [Python](python.md)
