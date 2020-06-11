@@ -7,3 +7,5 @@ Divide-and-conquer is a strategy for solving a problem by:
 
 
 The most notable divide-and-conquer algorithms are Merge Sort, Quick Sort, Binary Search, and Quick Select.
+
+The runtime of a divide-and-conquer algorithm can be derived using the [Master Theorm.](https://people.eecs.berkeley.edu/~vazirani/algorithms/chap2.pdf#page=4)
