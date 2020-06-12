@@ -1,4 +1,3 @@
-
 - [Arrays](arrays.md)
   - [Strings](strings.md)
 
@@ -25,5 +24,7 @@
 - [Binary](binary.md)
 
 - [Math](math.md)
+
+- [Other](other.md)
 
 - [Python](python.md)
