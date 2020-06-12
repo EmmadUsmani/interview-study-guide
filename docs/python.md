@@ -56,16 +56,24 @@ d = {1: 'Emmad', 2: 'Kitten', 'Alpha': [300, 44, 7]}
 d = dict([(1, 'Emmad'), (2, 'Kitten')])
 1 in d
 #True
+
+# iteration
+for key in d:
+    print(key)
+for value in d.values():
+    print(value)
+for key, value in d.items():
+    print(key, value)
 ```
 
 ## Counter
-implemented with HashTable, inhereits from Dictionary
+implemented with HashTable, inhereits from Dictionary,
 must be imported from collections
 
 - Counter([iterable-or-mapping]) *linear time to pass thru iter*
 - c.most_common([n])
 - c.elements() *iterator over elements with each as many times as its count*
-- c.substract([iter-or-mapping]) *subtract counts*
+- c.subtract([iter-or-mapping]) *subtract counts*
 
 ```python
 from collections import Counter
@@ -75,6 +83,8 @@ for word in words:
 
 cnt = Counter(words) #simpler
 ```
+
+One key difference between a Counter and a Dict is that a Counter returns 0 instead of throwing a KeyError for keys that are not stored.
 
 ## Set
 implemented with HashTable
@@ -168,6 +178,15 @@ ord('b') - ord('a')
 - float('inf'), float('-inf')
 - sum(iterable), min(iterable, [key]), max(iterable, [key]) *key is a func*
 - // *floor division, returns int*
+
+## Random
+- random.randint(a, b) *[a, b]*
+- random.uniform(a, b) *[a, b]*
+- random.random() *[0, 1)*
+
+- random.choice(seq)
+- random.shuffle(x) *in-place*
+- random.sample(population, k) *without replacement, returns new sequence*
 
 ## Synatax
 - Equality
