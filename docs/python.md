@@ -153,6 +153,10 @@ Strings in python are immutable, so all methods return new strings.
  - string.split(seprator) *returns list, no seperator*
  - string.index(substr)
  - string.count(substr)
+ - string.upper()
+ - string.lower()
+ - string.isupper()
+ - string.islower()
  - str() *invokes \_\_str\_\_(), if not \_\_repr\_\_()*
 
 
