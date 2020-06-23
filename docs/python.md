@@ -157,6 +157,7 @@ Strings in python are immutable, so all methods return new strings.
  - string.lower()
  - string.isupper()
  - string.islower()
+ - string.isalnum()
  - str() *invokes \_\_str\_\_(), if not \_\_repr\_\_()*
 
 
@@ -218,3 +219,6 @@ condition_if_true if condition else condition_if_false
 is_nice = True
 state = "nice" if is_nice else "not nice"
 ```
+
+## Misc
+- filter(function, iterable) *returns filter object, which is iterable*
