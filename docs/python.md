@@ -149,7 +149,7 @@ heapq[0] # peek min item
 ## String
 Strings in python are immutable, so all methods return new strings.
 
- - string[start: stop: step]
+ - string[start: stop: step] *string[::-1] reverse*
  - string.split(seprator) *returns list, no seperator*
  - string.index(substr)
  - string.count(substr)
@@ -192,6 +192,18 @@ ord('b') - ord('a')
 - random.choice(seq)
 - random.shuffle(x) *in-place*
 - random.sample(population, k) *without replacement, returns new sequence*
+
+## Binary
+- x << y
+- x >> y *arithmetic*
+- x & y
+- x | y
+- ~x
+- x ^ y
+- bin(x) *binary string representation, prefixed by '0b'*
+- int(x, 2) *convert binary string (no prefix) to int*
+
+Python treats numbers as if they have an infinite number of bits. For example, -5 is treated as "...1111111111111011"
 
 ## Synatax
 - Equality
