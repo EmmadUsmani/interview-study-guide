@@ -2,35 +2,30 @@
 
 A graph is simply a collection of vertices/nodes and edges connecting them. Edges can be directed or undirected, and weighted or unweighted.
 
-
 ## Representations
 
 **Adjacency List**: for each vertex there is a list of adjacent verticies. An array or hash table of lists can store the adjacency list.
 
 This is the most common representation.
 
-
 **Adjacency Matrix**: an VxV matrix (V= #verticies) where a true value at matrix[i][j] indicates an edge from node i to node j.
 
 In an undirected graph, an the matrix will be symettric.
-
 
 **Edge Sets**: a collection of all edges, where each edge is a pair of ints.
 
 This representation is uncommon.
 
-
 ## Runtime Complexity
 
-Operation | Adjacency List | Adjacency Matrix
---- | --- | ---
-space  | O(V+E) | O(V^2)
-addEdge | O(1) | O(1)
-getAdjNodes | O(1)-O(V)* | O(V)
-hasEdge | O(deg(v)) | O(1)
+| Operation   | Adjacency List | Adjacency Matrix |
+| ----------- | -------------- | ---------------- |
+| space       | O(V+E)         | O(V^2)           |
+| addEdge     | O(1)           | O(1)             |
+| getAdjNodes | O(1)-O(V)\*    | O(V)             |
+| hasEdge     | O(deg(v))      | O(1)             |
 
-**constant time with hash table, linear with list*
-
+\*_constant time with hash table, linear with list_
 
 ## Traversals
 
@@ -49,10 +44,9 @@ DFS finds a path to every vertex from its source, but they may not be the shorte
 
 A pre-order traversal is the order of DFS calls, while a post-order is the order the calls return. A topological sort (which finds a valid ordering of satisfying constraints) is reverse post-order.
 
-The runtime of DFS is O(V+E) (assuming adjacency list) since each vertext is visited at most once (O(V)) and each edge is considered at most twice (O(E)).
+The runtime of DFS is O(V+E) (assuming adjacency list) since each vertex is visited at most once (O(V)) and each edge is considered at most twice (O(E)).
 
 The space used is proportional to the max depth of the graph, since that's how deep the recursive stack is. In the worst case, this is O(V).
-
 
 **Breadth-First Search**: start at a node and go wide first, exploring all immediate neighbors before moving on to the next depth.
 
@@ -81,8 +75,7 @@ Worst case space is O(V) (every node is directly connected to the root, so they 
 
 **Bidirectional Search**: A bidirectional search finds a path from s to t by doing two BFS searches starting at s and t until they collide.
 
-If each node as at most k adjacent nodes and the shortest s-t path is length d, then BFS searches O(k^d) nodes. A bidirectional search would search 2*k^(d/2) nodes, or O(k^(d/2)), which is a big improvement.
-
+If each node as at most k adjacent nodes and the shortest s-t path is length d, then BFS searches O(k^d) nodes. A bidirectional search would search 2\*k^(d/2) nodes, or O(k^(d/2)), which is a big improvement.
 
 **Dijkstra's Algorithm**: finds the shortest paths from source to all other nodes in a weighted graph.
 
@@ -98,7 +91,6 @@ while H is not empty:
 ```
 
 With a binary heap priority queue, the runtime is O((V+E)logV)
-
 
 ## Trees
 
