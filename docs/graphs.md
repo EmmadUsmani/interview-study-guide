@@ -2,6 +2,8 @@
 
 A graph is simply a collection of vertices/nodes and edges connecting them. Edges can be directed or undirected, and weighted or unweighted.
 
+A complete (fully connected) graph with n verticies has n(n-1)/2 edges.
+
 ## Representations
 
 **Adjacency List**: for each vertex there is a list of adjacent verticies. An array or hash table of lists can store the adjacency list.
