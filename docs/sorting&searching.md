@@ -125,7 +125,7 @@ def binarySearch(arr, x):
 def binarySearchIter(arr, x):
     low, high = 0, len(arr) - 1
     while low <= high:
-        mid = (low + high) // 2
+        mid = (low + high) // 2 + low
         if arr[mid] == x:
             return mid
         elif arr[mid] < x:
